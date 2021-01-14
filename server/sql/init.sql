@@ -1,0 +1,7 @@
+DROP TABLE IF EXISTS faces;
+
+CREATE TABLE faces (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  name TEXT NOT NULL,
+  embeddings array NOT NULL
+);

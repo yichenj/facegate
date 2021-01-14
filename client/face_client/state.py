@@ -1,0 +1,9 @@
+from enum import Enum
+
+class State(Enum):
+    IDLE = 1
+    AWAKING = 2
+    DO_FACE_DETECTION = 3
+    FACE_DETECTION_COMPLETED = 4
+    DO_FACE_RECOGNITION = 5
+    FACE_RECOGNITION_COMPLETED = 6
